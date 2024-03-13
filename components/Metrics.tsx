@@ -2,7 +2,7 @@ import { metrics } from "@/constants";
 
 const Metrics = () => {
   return (
-    <div className="flex justify-center text-center  items-center flex-col text-dark-grey mt-[3.75rem] md:mt-[6.25rem] xl:mt-[7.5rem] px-4 xl:px-14 mb-96">
+    <div className="flex justify-center text-center  items-center flex-col text-dark-grey mt-[3.75rem] md:mt-[6.25rem] xl:mt-[7.5rem] px-4 xl:px-14 ">
       <h2 className="font-semibold  text-black md:font-bold text-[2.375rem] mb-5">
         Our Metrics Tell the Story
       </h2>
