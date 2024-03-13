@@ -1,33 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #f8f9ff;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.display-xl {
+  @apply font-bold text-[4.195rem] leading-[80px] text-dark-grey;
+}
+.display-l {
+  @apply font-bold text-[3.125rem] text-dark-grey;
+}
+.display-m {
+  @apply font-bold text-[2.375rem];
+}
+.display-m-semibold {
+  @apply font-semibold text-[2.375rem] text-dark-grey;
+}
+.display-s {
+  @apply font-semibold text-[1.75rem] text-dark-grey;
+}
+.display-xs {
+  @apply font-semibold text-[1.325rem] text-dark-grey;
+}
+.body-xl {
+  @apply font-mulish text-[1.75rem] text-dark-grey;
+}
+.body-l {
+  @apply font-mulish text-[1.325rem] text-dark-grey;
+}
+.body-m {
+  @apply font-mulish text-dark-grey;
+}
+.body-s {
+  @apply font-mulish text-sm text-dark-grey;
 }
