@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="mt-[7.5rem] px-4 flex flex-col xl:flex-row items-center justify-center mx-auto text-center xl:text-start xl:justify-evenly">
+    <div className="mt-[7.5rem] px-4 flex flex-col xl:flex-row items-center justify-center mx-auto text-center xl:text-start xl:justify-around">
       <section className="">
         <h1 className="font-bold text-[2.375rem] md:text-[4.195rem] xl:leading-[80px] text-dark-grey mx-auto w-[19.69rem] md:w-[42.50rem] xl:w-[40.50rem] mb-5">
           Create Engaging Landing Pages
