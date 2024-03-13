@@ -71,3 +71,34 @@ export const metrics = [
     paragraph: "Teams used Anima",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+
+    image: "/testimonials/sarah.png",
+    name: "Sarah K.",
+    job: "UX Designer @Brello",
+    testimonial:
+      "I was looking for a way to streamline my design process and the Anima’s Landing Page UI Kit was a lifesaver! The intuitive design and ease of customization  have saved me hours of time and effort. Highly recommend!",
+    rating: "/testimonials/5-star.png",
+  },
+  {
+    id: 2,
+    image: "/testimonials/michael.png",
+    name: "Michael L.",
+    job: "Creative Director @Yo",
+    testimonial:
+      "The Landing Page UI Kit has been a game changer for my agency. The pre-designed components and templates have helped us deliver projects faster and with more consistency. Great job!",
+    rating: "/testimonials/4-star.png",
+  },
+  {
+    id: 3,
+    image: "/testimonials/lauren.png",
+    name: "Lauren M.",
+    job: "UI Designer @Boo",
+    testimonial:
+      "Anima’s Landing Page UI Kit has become a staple in my design toolkit. Whether I'm working on a new project or need to make updates to an existing one, this kit has everything I need to get the job done quickly and efficiently.",
+    rating: "/testimonials/5-star.png",
+  },
+];
