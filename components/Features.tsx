@@ -7,7 +7,7 @@ const Features = () => {
       <h2 className="font-semibold text-black md:font-bold text-[2.375rem] mb-5">
         Features
       </h2>
-      <p className="font-mulish ">
+      <p className="font-mulish text-center ">
         Few good reasons why you should use Anima Landing Page Ui Kit to make
         your own pages.
       </p>
