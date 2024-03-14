@@ -1,6 +1,7 @@
 import CTA from "@/components/CTA";
 import CTABottom from "@/components/CTABottom";
 import Clients from "@/components/Clients";
+import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Metrics from "@/components/Metrics";
@@ -23,6 +24,7 @@ export default function Home() {
       <Pricing />
       <Team />
       <CTABottom />
+      <Contact />
     </>
   );
 }
