@@ -1,4 +1,5 @@
 import CTA from "@/components/CTA";
+import CTABottom from "@/components/CTABottom";
 import Clients from "@/components/Clients";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
@@ -21,6 +22,7 @@ export default function Home() {
       <Testimonials />
       <Pricing />
       <Team />
+      <CTABottom />
     </>
   );
 }
