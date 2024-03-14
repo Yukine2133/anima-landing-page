@@ -102,3 +102,58 @@ export const testimonials = [
     rating: "/testimonials/5-star.png",
   },
 ];
+
+export const pricing = [
+  {
+    id: 1,
+    type: "Free",
+    price: "0",
+    for: "Best for Small Teams or Individuals",
+    features: [
+      {
+        id: 1,
+        checkmark: "/pricing/checkmark-green.png",
+        feature: [
+          "Write features details here",
+          "Write features details here",
+          "Write features details here",
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    type: "Professional",
+    price: "19",
+    for: "Ideal for Growing Companies.",
+    features: [
+      {
+        id: 1,
+        checkmark: "/pricing/checkmark-green.png",
+        feature: [
+          "Write features details here",
+          "Write features details here",
+          "Write features details here",
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    type: "Enterprise",
+    price: "49",
+    for: "Ultimate for Enterprise Solutions.",
+    features: [
+      {
+        id: 1,
+        checkmark: "/pricing/checkmark-white.png",
+        feature: [
+          "Write features details here",
+          "Write features details here",
+          "Write features details here",
+        ],
+      },
+    ],
+    green: true,
+  },
+];

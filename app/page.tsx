@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Metrics from "@/components/Metrics";
 import Navbar from "@/components/Navbar";
+import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Metrics />
       <CTA />
       <Testimonials />
+      <Pricing />
     </>
   );
 }
