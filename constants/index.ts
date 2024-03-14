@@ -157,3 +157,25 @@ export const pricing = [
     green: true,
   },
 ];
+
+export const team = [
+  {
+    id: 1,
+
+    image: "/team/Sarah.png",
+    name: "Sarah K.",
+    job: "UX Designer ",
+  },
+  {
+    id: 2,
+    image: "/team/Michael.png",
+    name: "Michael L.",
+    job: "Lead Designer",
+  },
+  {
+    id: 3,
+    image: "/team/Lauren.png",
+    name: "Lauren M.",
+    job: "Product Designer",
+  },
+];
